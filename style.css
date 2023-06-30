@@ -1,0 +1,164 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+}
+
+body {
+    display: flex;
+    background-color: rgb(235, 235, 235) !important;
+}
+
+.curriculo {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto 10px auto;
+    width: 595px;
+    height: 910px;
+    background-color: white;
+    box-shadow: 8px 8px 8px #c5c5c5;
+    border-radius: 5px;
+}
+
+header {
+    width: 310px;
+    height: 122px;
+    margin-top: 20px;
+}
+
+img {
+    display: flex;
+    margin: 5px 0px;
+    position: absolute;
+    width: 65px;
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+.esquerda {
+    display: flex;
+    justify-content: left;
+    width: 550px;
+    height: 842px;
+    margin-left: 35px;
+    background-color: white;
+}
+
+.direita {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    text-align: left;
+}
+
+h1,
+span {
+    background-color: white;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    margin-left: 70px;
+    padding-bottom: 10px;
+}
+
+.desenv {
+    font-size: 10px;
+    margin-left: 70px;
+    padding-top: 5px;
+}
+
+.contato {
+    /* border-left: 2px dashed rgb(189, 189, 189); */
+    border-left: 2px solid rgb(189,189,189);
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 20px;
+    display: flexbox;
+    justify-content: center;
+}
+
+.cont {
+    padding-left: 0px;
+    font-size: 8px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.idioma {
+    font-size: 8px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.softspan {
+    font-size: 8px;
+}
+
+.skill {
+    font-size: 15;
+    margin-bottom: 5px;
+}
+
+.hskil {
+    font-size: 8px;
+}
+
+.bio {
+    width: 360px;
+    height: 110px;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 8px;
+    line-height: 11.5px;
+}
+
+.exp {
+    font-size: 8px;
+    margin-top: -3px;
+    margin-bottom: -1px;
+}
+
+.expSpan {
+
+    font-size: 8px;
+    font-style: normal;
+    margin-top: 2px;
+    color: #8f8f8f;
+}
+
+.spanText {
+    font-size: 8px;
+    text-align: justify;
+    line-height: 11.5px;
+    margin-top: 4px;
+}
+
+.exp4 {
+    padding-top: 0px;
+}
+
+.exp5 {
+    padding-top: 8px;
+}
+
+.educacao {
+    margin-top: -20px;
+    width: 360px;
+}
+
+.adicional4 {
+    font-size: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+a {
+    color: rgb(11, 136, 219);
+}
+
